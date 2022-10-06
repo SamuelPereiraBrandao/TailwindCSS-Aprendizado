@@ -1,10 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Pag1 from '@/components/Pag1.vue'
+import Pag2 from '@/components/Pag2.vue'
+import Pag3 from '@/components/Pag3.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
+    children: [
+      {
+        path:'/pag1',
+        name:'pag1',
+        component: Pag1
+      },
+      {
+        path:'/pag2',
+        name:'pag2',
+        component: Pag2
+      },
+      {
+        path:'/pag3',
+        name:'pag3',
+        component: Pag3
+      },
+    ],
     component: HomeView
   },
   {
