@@ -16,7 +16,7 @@ export default {
 </script>
 <style>
 *::selection {
-  background: rgb(0, 34, 128);
-  color: rgb(0, 238, 255);
+  background: #D1D5DB;
+  color: #42B983;
 }
 </style>
