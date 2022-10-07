@@ -30,12 +30,40 @@
         </div>
          
     </div>
-    <div class="container m-6 p-6 bg-red-300 rounded">
-        <div class="bg-red-900  md:inline-block">1</div>
-        <div class="bg-rose-500 md:inline-block">2</div>
-        <div class="bg-amber-500 md:inline-block">3</div>
+    <div class="container m-6 p-6 overflow-auto h-20 bg-red-400 rounded">
+        <div class="bg-red-900  ">1</div>
+        <div class="bg-rose-500 ">2</div>
+        <div class="bg-amber-500 ">3</div>
+        <div class="bg-red-900  ">1</div>
+        <div class="bg-rose-500 ">2</div>
+        <div class="bg-amber-500 ">3</div>
+        <div class="bg-red-900  ">1</div>
+        <div class="bg-rose-500 ">2</div>
+        <div class="bg-amber-500 ">3</div>
+        <div class="bg-red-900  ">1</div>
+        <div class="bg-rose-500 ">2</div>
+        <div class="bg-amber-500 ">3</div>
 
     </div>
+    <div class="overflow-y-auto h-16 m-6 bg-green-400">
+        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    </div>
+
+    <div class="relative bg-pink-600 h-20">
+        <div class="absolute top=0 right-0 bg-pink-900">
+            ABSOLUTE
+        </div>
+
+    </div>
+    <div class=" bg-blue-400 h-20">
+        <div class="flex justify-end items-end right-0 h-20 ">
+            ABSOLUTE
+        </div>
+
+    </div>
+<div class="container bg-red-400 ">
+    estou oculto
+</div>
 </template>
 <script>
     export default {
