@@ -56,13 +56,29 @@
 
     </div>
     <div class=" bg-blue-400 h-20">
-        <div class="flex justify-end items-end right-0 h-20 ">
+        <div class="flex justify-end items-end  h-20 ">
             ABSOLUTE
         </div>
 
     </div>
-<div class="container bg-red-400 ">
+<div class="container bg-red-400 visible">
     estou oculto
+</div>
+
+<div class="container relative">
+    <div class="bg-red-300 h-20 w-20 p-6 text-white rounded m-2 absolute z-10">Frente</div>
+        <div class="bg-red-600 h-20 w-20 p-6 text-white rounded m-2 absolute">Atrás</div>
+
+        
+    
+</div>
+
+
+<div class="container relative flex justify-center my-48">
+    <div class=" bg-gray-900 absolute rounded  h-20 w-20 text-white m-12 ml-24 text-right">C</div>
+    <div class="z-20 bg-blue-900 absolute rounded  h-20 w-20 text-white m-6 ml-12 text-right">B</div>
+    <div class="z-30 bg-yellow-900 absolute rounded  h-20 w-20 text-white text-right">A</div>
+
 </div>
 </template>
 <script>
