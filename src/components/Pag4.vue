@@ -20,6 +20,78 @@
     <div class="bg-green-600">1</div>
     <div class="bg-green-600">2</div>
 </div>
+<div class="grid grid-cols-3 text-center">
+    <div class="bg-red-300 m-1 rounded">1</div>
+    <div class="bg-red-600 m-1 rounded">2</div>
+    <div class="bg-red-300 m-1 rounded">3</div>
+    <div class="bg-red-600 m-1 rounded">4</div>
+    <div class="bg-red-300 m-1 rounded">5</div>
+    <div class="bg-red-600 m-1 rounded">6</div>
+    <div class="bg-red-300 m-1 rounded">7</div>
+    <div class="bg-red-600 m-1 rounded">8</div>
+    <div class="bg-red-300 m-1 rounded">9</div>
+</div>
+<div class="grid grid-cols-6 m-2">
+    <div class="col-span-1 bg-yellow-500">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+            <li>Blog</li>
+        </ul>
+    </div>
+    <div class="col-span-5 bg-blue-500">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa impedit, veritatis obcaecati accusantium perferendis esse ullam fuga necessitatibus dolorum quo rerum exercitationem quae quia aliquid asperiores soluta eveniet aspernatur? Quasi?
+        Necessitatibus eius doloremque facilis libero similique, praesentium officiis quos adipisci excepturi beatae quasi dignissimos alias blanditiis hic provident error nemo quidem amet voluptatem magnam quia ipsam esse. Saepe, odio accusantium.
+        Impedit dolor dolore qui vitae nisi corporis architecto reprehenderit, reiciendis, tenetur laboriosam aliquid similique dolorum ipsam deleniti! Nesciunt dolor eum eligendi veniam saepe perferendis quidem deleniti laudantium! Quae, similique sint?
+        Odio, quam quisquam dicta, eligendi quasi ea mollitia velit sapiente pariatur provident harum recusandae natus. Ipsam, harum distinctio, minima inventore, culpa reiciendis labore praesentium ea fugiat nisi quis possimus obcaecati.
+        Esse quo ut iure, non aperiam mollitia labore cumque, ipsum facilis dolore quod natus, possimus obcaecati illo voluptate rerum! Tenetur nostrum necessitatibus, consectetur qui asperiores ea debitis dolorum odio. Qui.
+        Quod, facere maiores repellendus voluptatibus at corporis distinctio consequuntur consequatur quis praesentium quae nam officiis numquam. At nemo minima accusamus ipsum exercitationem ad molestias, fugiat, voluptatem sunt ipsam soluta laborum.
+        Soluta at nihil facere voluptatem impedit voluptates, quasi eveniet illum facilis tempora quis neque est nam quas ipsum earum reprehenderit minima. Harum ratione enim aperiam laboriosam? Harum ipsam reiciendis sit.
+        Enim, aspernatur voluptates ducimus quidem recusandae corrupti illo unde tenetur delectus quisquam minus veniam laudantium officiis quasi adipisci esse neque dolore nam? Ut amet nihil consequuntur vel, est debitis soluta!
+        Iusto adipisci praesentium vitae explicabo voluptate architecto sint nulla reprehenderit, illum, quae molestias ea fugit veniam reiciendis itaque atque. Mollitia facere repellat accusantium, dicta quidem similique possimus debitis blanditiis odit!
+        Provident, itaque, ea sapiente libero sit blanditiis illo dolore facilis rerum, minus at possimus est vel. Voluptatem nisi placeat adipisci nesciunt, fuga in rerum sapiente ipsam enim minima nostrum nobis?</p>
+    </div>
+</div>
+
+
+<div class="grid grid-cols-4 m-2">
+    <div class="col-span-1 bg-red-700">
+        <p>Barra lateral esquerda</p>
+    </div>
+    <div class="col-span-2 m-2 bg-red-300">
+        <p>Contéudo</p>
+    </div>
+    <div class="col-span-3 m-2 bg-red-700">
+        <p>Barra lateral direita</p>
+    </div>
+</div>
+<div class="grid grid-cols-4">
+    <div class="col-span-4 bg-yellow-900 text-white">
+        <p>Barra de navegação</p>
+    </div>
+</div>
+<div class="grid grid-rows-4 grid-flow-row text-center">
+    <div class="bg-green-100">1</div>
+    <div class="bg-green-200">2</div>
+    <div class="bg-green-300">3</div>
+    <div class="bg-green-400">4</div>
+    <div class="bg-green-500">5</div>
+    <div class="bg-green-600">6</div>
+    <div class="bg-green-700">7</div>
+    <div class="bg-green-800">8</div>
+</div>
+<div class="grid grid-cols-2 gap-1 text-center m-2">
+    <div class="grid-cols-1 bg-gray-400 rounded">1</div>
+    <div class="grid-cols-2 bg-gray-400 rounded">2</div>
+    <div class="grid-cols-3 bg-gray-400 rounded">3</div>
+    <div class="grid-cols-1 bg-gray-400 rounded">4</div>
+    <div class="grid-cols-2 bg-gray-400 rounded">5</div>
+    <div class="grid-cols-3 bg-gray-400 rounded">6</div>
+</div>
+<div class="bg-red-500 text-center"><div>
+    teste
+</div></div>
 </template>
 <script>
     export default {

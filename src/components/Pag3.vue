@@ -38,6 +38,7 @@
     <div class="bg-green-500 rounded m-2 p-2">5</div>
     <div class="bg-green-400 rounded m-2 p-2">6</div>
 </div>
+
 </template>
 <script>
     export default {
