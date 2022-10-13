@@ -4,6 +4,7 @@ import Pag1 from '@/components/Pag1.vue'
 import Pag2 from '@/components/Pag2.vue'
 import Pag3 from '@/components/Pag3.vue'
 import Pag4 from '@/components/Pag4.vue'
+import Pag5 from '@/components/Pag5.vue'
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
         path:'/pag4',
         name:'pag4',
         component: Pag4
+      },
+      {
+        path:'/pag5',
+        name:'pag5',
+        component: Pag5
       },
     ],
     component: HomeView

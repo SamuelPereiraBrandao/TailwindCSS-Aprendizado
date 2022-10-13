@@ -4,7 +4,9 @@
   >
     <div class="">
       <H1 class="md:hidden text-white xl:hidden transition-all">CELULAR</H1>
-      <H1 class="hidden md:block xl:hidden md:text-white transition-all">NOTEBOOK E TABLET</H1>
+      <H1 class="hidden md:block xl:hidden md:text-white transition-all"
+        >NOTEBOOK E TABLET</H1
+      >
       <H1 class="hidden xl:block xl:text-white transition-all">COMPUTADOR</H1>
     </div>
   </div>
@@ -16,7 +18,7 @@ export default {
 </script>
 <style>
 *::selection {
-  background: #D1D5DB;
-  color: #42B983;
+  background: #d1d5db;
+  color: #42b983;
 }
 </style>
